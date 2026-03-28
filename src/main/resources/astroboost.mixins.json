@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.astroboost.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "light.ExplosionMixin",
+    "chunk.ChunkLoadingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

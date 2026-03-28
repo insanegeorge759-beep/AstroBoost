@@ -1,4 +1,3 @@
-made by ItzWasted - Georgian Dev
 # 🚀 AstroBoost — Fabric 1.21.11
 
 **The ultimate performance mod for low-end PCs**

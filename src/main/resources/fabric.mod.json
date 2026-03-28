@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "astroboost",
+  "version": "1.0.0",
+  "name": "AstroBoost",
+  "description": "🚀 Light Engine Rewrite + Chunk Engine System + GUI | Fabric 1.21.11 | by Georgian Dev",
+  "authors": [
+    "Georgian Dev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/astroboost/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.astroboost.AstroBoostMod"
+    ],
+    "client": [
+      "com.astroboost.AstroBoostClient"
+    ]
+  },
+  "mixins": [
+    "astroboost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  },
+  "suggests": {
+    "c2me": "*",
+    "sodium": "*",
+    "lithium": "*"
+  }
+}
